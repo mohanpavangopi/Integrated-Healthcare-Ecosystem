@@ -1,4 +1,4 @@
-# Integrated-Healthcare-Ecosystem-
+# Integrated-Healthcare-Ecosystem
 Integrated Healthcare Ecosystem using Blockchain & MongoDB
 MedChain is a decentralized application (DApp) designed to address critical gaps in healthcare coordination and data management. It leverages blockchain technology for secure, immutable medical record management and a MongoDB backend for flexible user authentication and profile management. This hybrid approach ensures data integrity and privacy while maintaining the scalability and flexibility needed for a comprehensive healthcare platform.
 
