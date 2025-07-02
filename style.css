@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    background-image: url("https://img.freepik.com/free-vector/clean-medical-background_53876-116875.jpg?t=st=1751389144~exp=1751392744~hmac=be97a164f637bddafa677b633ffa25009ace161baa2947a1a65bf2e754fc2639&w=1380");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the image stable for blur effect */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.auth-card {
+    max-width: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.06); /* Darker transparent background */
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25); /* More depth for contrast */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+
+.role-button {
+    transition: all 0.2s ease-in-out;
+}
+
+.role-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container {
+    display: none;
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.06); /* Darker transparent background */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
