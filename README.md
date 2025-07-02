@@ -3,6 +3,7 @@
 A decentralized healthcare DApp leveraging **Blockchain** and **MongoDB** to enable secure, transparent, and role-based access to medical records.
 
 ---
+![image](https://github.com/user-attachments/assets/8a656351-ad88-49f8-8bbd-76af40500864)
 
 ## 🌐 Overview
 
